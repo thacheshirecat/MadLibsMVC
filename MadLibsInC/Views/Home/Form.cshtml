@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Mad Libs</title>
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css'>
+    <style>
+    body
+    {
+      background-color: green;
+    }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h2>Welcome To Mad Libs</h2>
+      <h3>Fill out the following form and submit for a story.<h3>
+      <form action="/madlib">
+      <div class="form-group">
+        <label for="first-name">A Name</label>
+        <input type="text" id="first-name" name="first-name" class="form-control">
+      </div>
+      <div class="form-group">
+        <label for="first-location">A Location</label>
+        <input type="text" id="first-location" name="first-location" class="form-control">
+      </div>
+      <div class="form-group">
+        <label for="first-animal">An Animal</label>
+        <input type="text" id="first-animal" name="first-animal" class="form-control">
+      </div>
+      <div class="form-group">
+        <label for="first-verb">A Verb (past tense)</label>
+        <input type="text" id="first-verb" name="first-verb" class="form-control">
+      </div>
+      <div class="form-group">
+        <label for="second-verb">Another Verb (past tense)</label>
+        <input type="text" id="second-verb" name="second-verb" class="form-control">
+      </div>
+      <button type='submit' class='btn'>Go!</button>
+    </div>
+  </body>
+</html>
